@@ -9,9 +9,7 @@ const arr = [2, 10, 56, 9];
 // ===== Сортировка
 
 
-arr.sort(function(a, b){
-    return a - b;
-});
+arr.sort((a, b) => a - b);
 console.log(arr);
 
 
@@ -64,3 +62,16 @@ const myObj = {
 const flag = Object.keys(myObj);
 console.log(flag);
 
+
+// Прототип об'екта
+
+
+const soldier = {
+    health: 500,
+    armor: 100,
+    rank: 'capral'
+};
+
+const valera = Object.create(soldier);
+valera.rank = 'silver';
+console.log(valera);
