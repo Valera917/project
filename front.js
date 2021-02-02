@@ -23,5 +23,5 @@ wrap.append(block);
 // block.innerHTML = '<h1>Hello world</h1>';
 block.textContent = '<h1>Hello world</h2>';
 
-block.insertAdjacentHTML('afterend', '<h2>This is Valeraaaaaaaa</h2>')
+block.insertAdjacentHTML('afterend', '<h2>This is Valeraaaaaaaa</h2>');
 
