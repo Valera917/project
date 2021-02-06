@@ -60,7 +60,6 @@ const personalMovieDB = {
         //         i--;
         //     }
         // }
-
         let genres = prompt('Введите любимые жанры через , ');
 
         if(genres != '' || genres != null){
@@ -71,7 +70,7 @@ const personalMovieDB = {
             }
         }
 
-        personalMovieDB.genres.forEach((value, i) =>{
+        personalMovieDB.genres.forEach((value, i) => {
             console.log(`Любимый жанр ${i + 1} = ${value}`);
         });
     }
